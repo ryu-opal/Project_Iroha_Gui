@@ -6,7 +6,7 @@ from PySide6.QtCore import Qt, QPoint, QSettings
 class VtuberWindow(QWidget):
     def __init__(self):
         super().__init__()
-        
+        self.label = QLabel(self)
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Tool)
         self.setAttribute(Qt.WA_TranslucentBackground)
         self.setAcceptDrops(True) 
