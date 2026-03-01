@@ -11,7 +11,7 @@ class VtuberWindow(QWidget):
         self.setAttribute(Qt.WA_TranslucentBackground)
         self.setAcceptDrops(True) 
 
-        self.settings = QSettings("AyameSoft", "VtuberApp")
+        self.settings = QSettings("Kodi-IrohaProject", "DesktopSticker")
         self.is_movable = self.settings.value("is_movable", True, type=bool) 
         self.is_resizing = False
 

@@ -1,0 +1,17 @@
+Iroha Project - DesktopSticker 
+
+Use python and PySide6 to make a light weight desktop sticker 
+
+function : 
+
+1. Auto save 
+2. Drag and drop picture 
+3. Click through 
+4. Resize 
+
+requirement 
+
+```
+pip install PySide6
+``` 
+
